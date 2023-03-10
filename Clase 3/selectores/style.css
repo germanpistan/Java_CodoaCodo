@@ -1,0 +1,37 @@
+/*comentarios*/
+/*selector universal*/
+/* aplica a todos los elementos */
+*{
+    font-family: cursive;
+    font-style: italic;
+
+}
+/* selector de tipo  */
+/* es el nombre de la etiqueta */
+h2 {
+    color: brown;
+
+}
+/* selector de clase */
+/* puedo poner estilo en la clase pelicula y tambien en la favorita, y mantiene ese estilo */
+.pelicula{
+    color: blue;
+}
+.favorita{
+    font-size: 20px;
+}
+.peliculas{
+    color: blueviolet;
+}
+/* en este caso, si borro la clase pelicula, hereda la clase peliculas de arriba y cambia a color violeta */
+/* este seria el caso de herencia, al no tener class, hereda de la etiqueta donde pertenece */
+.favorita {
+    font-size: 40px;
+}
+/*  aca favorita se pisa y cambia a 40 por ser cascada */
+/* selector de id */
+
+#idFavorita{
+    font-size: 5px;
+}
+/* aca prevalece el id por especificidad */
