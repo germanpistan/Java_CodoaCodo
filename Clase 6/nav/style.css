@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;  /*limito el tamaño*/
+}
+
+.contenedor{
+    width: 1000px;
+    margin: 30px auto;
+    padding: 15px;
+    /* background-color: aquamarine; */
+
+}
+
+.titulos{
+    text-align: center;
+
+}
+.nav-bg{
+    background-color: aqua;
+}
+
+.navegacion-principal{
+    text-align: center;
+    width: 80%;
+    background-color: beige;
+}
+
+.navegacion-principal a{
+    background-color: steelblue;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 8px;
+}

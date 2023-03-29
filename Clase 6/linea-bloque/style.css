@@ -1,0 +1,20 @@
+.block{  /*ocupa todo su ancho disponible en la pagina si nadie lo condiciona y genera salto de linea*/
+    background-color: blue;
+    width: 250px;
+    height: 40px;
+}
+.inline{
+    background-color: steelblue;
+    font-size: 25px;
+    /*display: block;  /*cambio el tipo de display para que use todo el ancho de la pagina*/
+    display: inline-block;  /*permite que se siga comportando como un display linea pero asignando medidas*/
+    /*los estilos inline ocupan el espacio que ocupa su contenido*/
+
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;    /*sacamos la linea de abajo del texto*/
+    border-radius: 25px;
+
+}
