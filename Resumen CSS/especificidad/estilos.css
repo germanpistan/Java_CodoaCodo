@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+
+/* cascada
+se aplica el ultimo valor cuando dos reglas tienen la mismma especificidad */
+
+h1{
+    color:royalblue;
+}
+h1{
+    color: crimson;
+}
+h1{
+    color:seagreen;
+}
+
+/* especificidad(jerarquia)
+
+indica que el selector va a aplicar el valor dependiendo de su nivel jerarquico
+criterio de mayor y menor importancia
+tiene mayor importancia que la cascada */
+
+/* .titulo{
+    color:blueviolet
+} */
+#titulo{
+    color: brown;
+}
+
+/* predomina el estilo en linea */
+.parrafo{
+    background-color: blue;
+}
+#parrafo{
+    background-color:brown ;
+}
+
+/* niveles
+1.estilos inline
+2.IDs
+3.clases
+4.elemento */
+
+/* herencia
+La herencia en CSS permite que ciertas propiedades de un elemento se propaguen a sus elementos hijos.
+Esto significa que un elemento hijo puede heredar propiedades de su elemento padre */
+
+body{
+    font-family: 'McLaren', cursive;
+}

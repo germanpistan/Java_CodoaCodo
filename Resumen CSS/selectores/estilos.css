@@ -1,0 +1,38 @@
+/* forma de hacer comentarios */
+
+/* selectores universal */
+*{
+    font-family: cursive;
+    font-style: italic;
+}
+
+/* selector de tipo */
+h2{
+    color: brown;
+}
+
+/* selector de clase */
+
+.favorita{
+    font-size: 20px;
+    color: blueviolet !important;
+}
+
+.pelicula{
+    color: blue;
+}
+
+/*seccion dos*/
+/* 
+selector descendiente (espacio)
+es descendiente cuando se encuentra entre las etiquetas de apertura y cierre del elenmento mayor */
+.seccion2 li{
+    color: #fff;
+    background-color: blue;
+}
+
+/* agrupamos selectores
+sintaxis:selector1,selector2,selector3{} */
+.seccion2 h2,p,h5{
+    background-color: aqua;
+}

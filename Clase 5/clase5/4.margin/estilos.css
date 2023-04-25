@@ -1,0 +1,44 @@
+/*para hacer los margenes por defecto*/
+/*tiene especificidad cero, entonces despues lo puedo pisar y modificar mas adelante*/
+*{
+    margin:0;
+    /*box-sizing: content-box;   /*los valores son por defecto y no cambian*/
+    box-sizing: border-box;  /*los elementos van a tener 200px por 200px independientemente de padding, border, etc*/
+
+}
+
+.caja1{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    
+
+
+}
+
+.caja2{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+
+    padding: 10px;
+    text-align: center;
+
+    margin-top: 50px;   /*con esto alejo la caja del elemento que tengo arriba, xq es el margen*/
+    margin-bottom: 50px;
+    /*puedo agrupar*/
+    /*margin: 50px;  /*defino 50 pix a todos lados el margen*/
+    /*margin: 50px 20px 10px 15px;  /*agrupo en una linea tambien en sent del reloj, */
+
+    /*margin: 0 auto;   /*para mantener centrado*/
+    /*margin: 20px auto;  /*arriba y abajo 20 px y a los costados auto, calcula margen automatico*/
+    margin: 40px;
+    padding: 10px;
+    border: 2px red solid;
+    
+
+    
+}

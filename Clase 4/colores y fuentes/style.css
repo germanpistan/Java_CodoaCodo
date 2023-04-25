@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+/*colores*/
+/* formas de ingresar colores
+nombres
+valores hexadecimales
+valores rgb 
+valores rgba 
+valores hsl
+valores hsla */
+h1{
+    color: #3a29cd;  /*valor hexadecimal*/
+    color:rgb(rgb(10, 86, 15), green, blue); /*esto sirve para el color sea mas especifico*/   
+    text-decoration: underline; /*subrayado*/
+}
+
+h2{
+    color: rgba(0, 255, 78, 54%) /*el valor alpha es la opacidad*/
+}
+
+body{
+    background-color:hsl(206, 58%, 61%);
+}
+
+p{
+    color: hsla(150, 20%, 40%, 10);   /*todo esto sirve para ser mas especifico*/
+}
+/*se puede usar paleta de colores la pagina */
+
+/*propiedades de texto*/
+p{
+    text-align: center;  /*para alinear texto*/
+    line-height: 18px;    /*separacion de texto*/
+}
+a{
+    text-decoration: none;  /*sacarle el subrayado al link por defecto de a*/
+}
+
+/* agregar fuentes desde google fonts */
+/* agrego el link de la pagina de google fonts con la que elegi
+lo agrego debajo del link de conexion de css en el index */
+/*otra forma de agregar es con el import, pegando el link desde el arroba en la primer linea del css y luego agregando abajo*/
+/* esto se hace una sola vez y lo puedo usar las veces que quiero */
+
+p{
+    font-family: 'McLaren',cursive;  /*de esta forma le cargo la fuente de google font*/
+}
+
+h1{
+    font-family: 'McLaren', cursive;
+}
+
+
+
+
+

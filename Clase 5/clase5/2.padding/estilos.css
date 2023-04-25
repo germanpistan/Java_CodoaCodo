@@ -1,0 +1,21 @@
+.caja{
+    background-color: steelblue;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+
+    /*padding: 30px;   /*relleno interior o padding con una medida en general*/
+    /* padding-top: 30px;  /*puedo tambien definir los padding, o margenes interiores */
+   /* padding-left: 20px;
+    padding-right: 35px;
+    padding-bottom: 30px; */
+
+    /*padding: 30px 50px 45px 60px;  /*puedo hacer lo mismo de arriba en una linea, arriba, derecha,abajo, izquierdo*/
+
+    /*PUEDO AGRUPAR DE DOS GRUPOS*/
+    padding: 30px 70px;  /*padding de 30 px arriba y abajo, y de 70 px izq y derecha, se agrupa por contrario*/
+    
+
+
+}

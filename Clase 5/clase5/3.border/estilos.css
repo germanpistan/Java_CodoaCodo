@@ -1,0 +1,23 @@
+.caja{
+    /*background-color: aqua;*/
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+    /*tres formas*/
+    /*por el ancho del borde*/
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+
+    /*se pueden agrupar estos tres*/
+    border: 3px red solid;
+    /*puedo tambien definir cada uno de los lados*/
+    /*puedo definir redondeo*/
+    border-radius: 25px;  /*me redondea las puntas del borde*/
+
+    
+
+
+
+}

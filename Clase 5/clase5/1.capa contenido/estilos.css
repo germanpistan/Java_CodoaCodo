@@ -1,0 +1,12 @@
+.caja{
+    background-color: yellow;
+
+    /*width: 200px;*/
+    height: 200px;  /*puede ser tambien en porcentaje, seria relativo por ej 80%*/
+    width: 80%;
+
+    overflow: hidden;  /*esconde los elementos de la caja cuando colapse por el tamaño*/
+    /*overflow: scroll;  cuando colapsan elementos por tamaño, aparece la barra scrol*/
+    
+
+}
